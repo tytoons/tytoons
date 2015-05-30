@@ -1,0 +1,65 @@
+/* line 4, index.scss */
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333333;
+  background-color: #dcdcdc;
+  text-align: center;
+  vertical-align: middle;
+}
+/* line 11, index.scss */
+body h1 {
+  color: #333333;
+  font-size: 10px;
+}
+/* line 16, index.scss */
+body .header {
+  width: 100%;
+  height: 20%;
+  background-color: white;
+  min-height: 35px;
+}
+/* line 22, index.scss */
+body .header h1 {
+  font-size: 32px;
+}
+/* line 27, index.scss */
+body .footer {
+  width: 100%;
+  height: 10%;
+  background-color: white;
+  min-height: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+/* line 35, index.scss */
+body .footer .footText {
+  font-size: 20px;
+  width: 100px;
+}
+/* line 40, index.scss */
+body .footer .footLogo {
+  width: 20px;
+  height: 20px;
+  border: black 1px solid;
+}
+/* line 47, index.scss */
+body .gridSquare {
+  width: 100px;
+  height: 100px;
+  background-color: #eeeeee;
+  border: black 1px solid;
+  rIndex: 1;
+}
+/* line 54, index.scss */
+body .gridSquare .gridValue {
+  width: 60%;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  background-color: red;
+  overflow: hidden;
+  transform: translate(-50%, -50%);
+  rIndex: 2;
+}
